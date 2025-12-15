@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A person enjoying a successful life, perhaps on a yacht or a beautiful viewpoint.",
+      "imageUrl": "https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdWNjZXNzZnVsJTIwbGlmZXxlbnwwfHx8fDE3MjQ4NTYxMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "successful life"
+    },
+    {
+      "id": "transformation-before",
+      "description": "A chaotic desk representing a life without a plan",
+      "imageUrl": "https://images.unsplash.com/photo-1500067803284-4304564c8655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXNzeSUyMGRlc2t8ZW58MHx8fHwxNzYzOTEzMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "messy desk"
+    },
+    {
+      "id": "transformation-after",
+      "description": "A clean and organized desk representing a well-planned life",
+      "imageUrl": "https://images.unsplash.com/photo-1518655048521-f130df041f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjbGVhbiUyMGRlc2t8ZW58MHx8fHwxNzYzOTEzMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean desk"
+    }
+  ]
+}
