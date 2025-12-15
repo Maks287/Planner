@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const ProductCard = ({ product, cta, isBundle = false, comingSoonLabel }: { product: any; cta: string; isBundle?: boolean, comingSoonLabel: string }) => {
   const isComingSoon = product.comingSoon;
-  const purchaseLink = `/checkout?product=${encodeURIComponent(product.name)}&price=${encodeURIComponent(product.price + product.currency)}`;
+  const purchaseLink = 'https://buy.stripe.com/4gM5kC6aZ5F16Hs4qsd7q02';
   return (
     <Card className={cn("flex flex-col", isBundle && "border-primary border-2 shadow-lg relative overflow-hidden")}>
       {isBundle && !isComingSoon && (
@@ -44,7 +44,7 @@ const ProductCard = ({ product, cta, isBundle = false, comingSoonLabel }: { prod
               {comingSoonLabel}
             </span>
           ) : (
-            <Link href={purchaseLink}>
+            <Link href={purchaseLink} target="_blank" rel="noopener noreferrer">
               <ShoppingCart className="mr-2 h-4 w-4" />
               {cta}
             </Link>
